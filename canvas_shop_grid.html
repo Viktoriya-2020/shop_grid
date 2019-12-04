@@ -1,0 +1,296 @@
+<html>
+<head>
+<title>shop</title>
+<script src="https://kit.fontawesome.com/d99d4c316d.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+<!--<link rel="stylesheet" href="css/style10.css">-->
+<style>
+body{
+	margin:0;
+	padding:0;
+	font-family: Lato,sans-serif;
+}
+header{
+    z-index:3;
+	position:fixed;
+	top:0;
+	height:14vh;
+	width:100%;
+	
+}
+
+.menu{
+	display:grid;
+	grid-template-columns:16% 26% 58%;
+	height:14vh;
+	align-items:center;
+	background-color:#f5f5f5;
+	border-bottom: 1px solid #eee
+}
+.menu>div{
+	/*border:1px solid black;*/
+}
+.menu2{
+	display:grid;
+	grid-template-columns:repeat(8,1fr);
+	justify-items:center;
+}
+.b1{
+	font-size:5vw;
+	line-height:12vh; 
+	border-right:1px solid #eee;
+	text-align:center;
+	height:14vh;
+}
+.menu2>div{
+	font-size:1.3vw;
+	/* border:1px solid black; */
+	text-transform:uppercase;
+}
+.sect{
+    margin:9em 3em;
+	display:grid;
+	grid-template-columns:auto auto auto auto;
+	grid-column-gap:1em;
+	grid-row-gap:3em;
+}
+.sect>div{
+	
+	
+	height:500px;
+	/*border:1px solid black;*/
+}
+.sect>div{
+	display:grid;
+	grid-template-rows:400px 100px;
+	
+}
+
+.cont2{
+	line-height:2vh;
+	font-wight:bold;
+	font-size:1.7vw;
+	color:#292828;
+	letter-spacing:0.1vw;
+}
+	.cont1 {
+	height:400px;
+	width:300px;
+	position:relative;
+	}
+	.cont1>img{
+	height:100%;
+	width:100%;
+	}
+	.d2{
+	display:none
+	}
+	.cont1:hover .d1{
+	display:none;
+	}
+	.cont1:hover .d2{
+	display:block;
+	}
+	.contf{
+		display:grid;
+		grid-template-columns:1fr 1fr;
+	}
+	.contf>div{
+		background:#c3abab;
+		align-items:center;
+		justify-items:center;
+		padding:7vh 3vw;
+		text-align:center;
+	}
+	.f1 a{
+		font-size:3vw;
+		text-decoration:none;
+		color:black;
+	}
+	.f2{
+		line-height:8vh;
+	}
+summary{
+	outline:none;
+}
+	@media only  screen and (max-width:900px){
+	.sect{
+	grid-template-columns:auto auto;
+	justify-content:center;
+	}
+	.menu2>div{
+	font-size:1.5vw;
+	}
+	.cont2{
+	font-size:2.5vw;
+	}
+	}
+	@media only  screen and (max-width:600px){
+	header{
+    z-index:3;
+	position:relative;
+	top:0;
+	height:auto;
+	width:100%;
+	}
+	.b1{
+	font-size:8vw;
+	line-height:10vh; 
+	border-bottom:1px solid #eee;
+	text-align:center;
+	height:12vh;
+	}
+	.b2{
+		display:none
+	}
+	.menu{
+		height:70vh;
+	}
+	.menu>div{
+	
+	grid-column:1/4;
+	}
+	.menu2>div{
+	grid-column:1/9;
+	}
+	.sect{
+    grid-template-columns:auto;
+	justify-content:center;
+	}
+	.menu2{
+	display:grid;
+	grid-template-columns:repeat(4,1fr);
+	align-content:center;
+    grid-row-gap:2.1em;
+	}
+	.menu2>div{
+	font-size:3vw;
+	}
+	.cont2{
+	font-size:3.5vw;
+	}
+	.f1 a{
+		font-size:7vw;
+		}
+	}
+</style>
+</head>
+<body>
+<header>
+	<div class="menu">
+		<div class="b1"><b>canvas</b></div>
+		<div class="b2"><a name="menu"></a></div>
+		<div class="b3">
+			<div class="menu2">
+				<div class="m1"><b>home</b></div>
+				<div class="m2"><b>features</b></div>
+				<div class="m3"><b>pages</b></div>
+				<div class="m4"><b>portfolio</b></div>
+				<div class="m5"><b>blog</b></div>
+				<div class="m6"><b>shop</b></div>
+				<div class="m7"><b>shortcodes</b></div>
+				<div class="m8"></div>
+			</div>
+		</div>
+	</div>
+</header>
+<section>
+	<div class="sect">
+		<div class="c1">
+			<div class="cont1 ">
+				<img class="d1" height="400"src="http://themes.semicolonweb.com/html/canvas/images/shop/dress/1.jpg">
+	            <img class="d2"height="400"src="http://themes.semicolonweb.com/html/canvas/images/shop/dress/1-1.jpg">
+			</div>			
+			<div class="cont2"><b><p>Checked Short Dress</p><p>$12.49</p></b><p>&#9733; &#9733; &#9733; &#9733; &#9734;</p></div>
+		</div>
+		<div class="c2">
+			<div class="cont1">
+			<img class="d1"height="400"src="http://themes.semicolonweb.com/html/canvas/images/shop/pants/1-1.jpg">
+			<img class="d2"height="400"src="http://themes.semicolonweb.com/html/canvas/images/shop/pants/1.jpg">
+			</div>
+			<div class="cont2"><b><p>Slim Fit Chinos</p><p>$39.99</p></b><p>&#9733; &#9733; &#9733; &#9733; &#9734;</p></div>
+		</div>
+		<div class="c3">
+			<div class="cont1"><img height="400"src="http://themes.semicolonweb.com/html/canvas/images/shop/shoes/1.jpg"></div>
+			<div class="cont2"><b><p>Dark Broun Boots</p><p>$49</p></b><p>&#9733; &#9733; &#9733; &#9733; &#9734;</p></div>
+		</div>
+		<div class="c4">
+			<div class="cont1">
+			<img  class="d1"height="400"src="http://themes.semicolonweb.com/html/canvas/images/shop/dress/2.jpg">
+			<img  class="d2"height="400"src="http://themes.semicolonweb.com/html/canvas/images/shop/dress/2-1.jpg">
+			</div>
+			<div class="cont2"><b><p>Light Blue Denim Dress</p><p>$19.95</p></b><p>&#9733; &#9733; &#9733; &#9733; &#9734;</p></div>
+		</div>
+		<div class="c5">
+			<div class="cont1">
+			<img  class="d1"height="400"src="http://themes.semicolonweb.com/html/canvas/images/shop/sunglasses/1-1.jpg">
+			<img  class="d2"height="400"src="http://themes.semicolonweb.com/html/canvas/images/shop/sunglasses/1.jpg">
+			</div>
+			<div class="cont2"><b><p>Unisex Sunglasses</p><p>$11.99</p></b><p>&#9733; &#9733; &#9733; &#9733; &#9734;</p></div>
+		</div>
+		<div class="c6">
+			<div class="cont1">
+			<img  class="d1"height="400"src="http://themes.semicolonweb.com/html/canvas/images/shop/tshirts/1-1.jpg">
+			<img  class="d2"height="400"src="http://themes.semicolonweb.com/html/canvas/images/shop/tshirts/1.jpg">
+			</div>
+			<div class="cont2"><b><p>Blue Round-Neck Tshirt</p><p>$9.99</p></b><p>&#9733; &#9733; &#9733; &#9733; &#9734;</p></div>
+		</div>
+		<div class="c7">
+			<div class="cont1">
+			<img  class="d1"height="400"src="http://themes.semicolonweb.com/html/canvas/images/shop/watches/1-1.jpg">
+			<img  class="d2"height="400"src="http://themes.semicolonweb.com/html/canvas/images/shop/watches/1.jpg">
+			</div>
+			<div class="cont2"><b><p>Silver Chrome Watch</p><p>$12.49</p></b><p>&#9733; &#9733; &#9733; &#9733; &#9734;</p></div>
+		</div>
+		<div class="c8">
+			<div class="cont1">
+			<img  class="d1"height="400"src="http://themes.semicolonweb.com/html/canvas/images/shop/shoes/2-1.jpg">
+			<img  class="d2"height="400"src="http://themes.semicolonweb.com/html/canvas/images/shop/shoes/2.jpg">
+			</div>
+			<div class="cont2"><b><p>Pink Printed Dress</p><p>$39.49</p></b><p>&#9733; &#9733; &#9733; &#9733; &#9734;</p></div>
+		</div>
+		<div class="c9">
+			<div class="cont1">
+			<img  class="d1"height="400"src="http://themes.semicolonweb.com/html/canvas/images/shop/dress/3.jpg">
+			<img  class="d2"height="400"src="http://themes.semicolonweb.com/html/canvas/images/shop/dress/3-1.jpg">
+			</div>
+			<div class="cont2"><b><p>Checked Short Dress</p><p>$39.49</p></b><p>&#9733; &#9733; &#9733; &#9733; &#9734;</p></div>
+		</div>
+		<div class="c10">
+			<div class="cont1">
+			<img  class="d1"height="400"src="http://themes.semicolonweb.com/html/canvas/images/shop/pants/5-1.jpg">
+			<img  class="d2"height="400"src="http://themes.semicolonweb.com/html/canvas/images/shop/pants/5.jpg">
+			</div>
+			<div class="cont2"><b><p>Checked Short Dress</p><p>$12.49</p></b><p>&#9733; &#9733; &#9733; &#9733; &#9734;</p></div>
+		</div>
+		<div class="c11">
+			<div class="cont1">
+			<img  class="d1"height="400"src="http://themes.semicolonweb.com/html/canvas/images/shop/sunglasses/2-1.jpg">
+			<img  class="d2"height="400"src="http://themes.semicolonweb.com/html/canvas/images/shop/sunglasses/2.jpg">
+			</div>
+			<div class="cont2"><b><p>Checked Short Dress</p><p>$12.49</p></b><p>&#9733; &#9733; &#9733; &#9733; &#9734;</p></div>
+		</div>
+		<div class="c12">
+			<div class="cont1">
+			<img  class="d1"height="400"src="http://themes.semicolonweb.com/html/canvas/images/shop/tshirts/4-1.jpg">
+			<img  class="d2"height="400"src="http://themes.semicolonweb.com/html/canvas/images/shop/tshirts/4.jpg">
+			</div>
+			<div class="cont2"><b><p>Black Polo Tshirt</p><p>$11.49</p></b><p>&#9733; &#9733; &#9733; &#9733; &#9734;</p></div>
+		</div>
+	</div>
+ 
+</section>
+<footer>
+	<div class="contf">
+		<div class="f1"> <a href="shop.html#menu">canvas</a></div>
+		<div class="f2"> 
+			<details>
+				<summary> &copy Copyright 2019 </summary>
+				<p>Autor:V.Seksenyan</p>
+			</details>
+		</div>
+	</div>
+</footer>
+
+</body>
+</html>
